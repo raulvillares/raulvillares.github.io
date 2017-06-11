@@ -263,6 +263,13 @@ h6 {
     font-family: serif
 }
 
+.w3-name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 10px 0
+}
+
 h1,
 h2,
 h3,
