@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Raúl Villares</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on Raúl Villares</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Tue, 02 Jan 2018 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comunidad CODE</title>
+      <link>/project/comunidad_code/</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/project/comunidad_code/</guid>
+      <description>❓ ¿Qué es CODE? CODE significa Charlas Online de Desarrollo en Español. Es una comunidad virtual de desarrolladoras y desarrolladores de software, en español y sin ánimo de lucro. La finalidad de CODE es compartir conocimiento y contar experiencias sobre desarrollo de software.
+💡 ¿Cómo surgió la idea? Surgió de una conversación en Twitter{:target=&amp;rdquo;_blank&amp;rdquo;}, inspirada en VirtualJUG{:target=&amp;rdquo;_blank&amp;rdquo;} (una comunidad online centrada en la plataforma Java). A partir de ahí se gestó la idea de crear algo parecido pero más generalista y en español.</description>
+    </item>
+    
+    <item>
+      <title>masde140.com</title>
+      <link>/project/mas_de_140/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/project/mas_de_140/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3&#39;s a crowd!</title>
+      <link>/project/3sacrowd/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/project/3sacrowd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cookinaria</title>
+      <link>/project/cookinaria/</link>
+      <pubDate>Tue, 27 Sep 2005 00:00:00 +0200</pubDate>
+      
+      <guid>/project/cookinaria/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>populicias.com</title>
+      <link>/project/populicias/</link>
+      <pubDate>Tue, 27 Sep 2005 00:00:00 +0200</pubDate>
+      
+      <guid>/project/populicias/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
