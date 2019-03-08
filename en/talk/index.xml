@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Raúl Villares on Raúl Villares</title>
-    <link>/en/</link>
-    <description>Recent content in Raúl Villares on Raúl Villares</description>
+    <title>Talks on Raúl Villares</title>
+    <link>/en/talk/</link>
+    <description>Recent content in Talks on Raúl Villares</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0200</lastBuildDate>
-    <atom:link href="/en/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Oct 2018 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/en/talk/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Self-managed teams</title>

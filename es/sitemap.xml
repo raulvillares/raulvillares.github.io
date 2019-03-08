@@ -4,6 +4,9 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="/talk/equipos_autogestionados/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/talk/equipos_autogestionados/" hreflang="en"/>
+    
       <loc>/talk/equipos_autogestionados/</loc>
       <lastmod>2018-10-05T00:00:00+02:00</lastmod>
     </url>
@@ -11,6 +14,9 @@
   
     
     <url>
+    
+      <xhtml:link rel="alternate" href="/talk/tdd_de_cero_a_cien/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/talk/tdd_de_cero_a_cien/" hreflang="en"/>
     
       <loc>/talk/tdd_de_cero_a_cien/</loc>
       <lastmod>2018-10-05T00:00:00+02:00</lastmod>
@@ -59,6 +65,9 @@
   
     
     <url>
+    
+      <xhtml:link rel="alternate" href="/talk/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/talk/" hreflang="en"/>
     
       <loc>/talk/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
