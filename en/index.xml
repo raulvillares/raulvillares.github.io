@@ -27,5 +27,62 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Comunidad CODE</title>
+      <link>/en/project/comunidad_code/</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/en/project/comunidad_code/</guid>
+      <description>
+
+&lt;h3 id=&#34;qué-es-code&#34;&gt;❓ ¿Qué es CODE?&lt;/h3&gt;
+
+&lt;p&gt;CODE significa &lt;strong&gt;C&lt;/strong&gt;harlas &lt;strong&gt;O&lt;/strong&gt;nline de &lt;strong&gt;D&lt;/strong&gt;esarrollo en &lt;strong&gt;E&lt;/strong&gt;spañol. Es una comunidad virtual de desarrolladoras y desarrolladores de software, en español y sin ánimo de lucro. La finalidad de CODE es compartir conocimiento y contar experiencias sobre desarrollo de software.&lt;/p&gt;
+
+&lt;h3 id=&#34;cómo-surgió-la-idea&#34;&gt;💡 ¿Cómo surgió la idea?&lt;/h3&gt;
+
+&lt;p&gt;Surgió de &lt;a href=&#34;https://masde140.com/t/meetup-virtual/279&#34; target=&#34;_blank&#34;&gt;una conversación en Twitter&lt;/a&gt;{:target=&amp;rdquo;_blank&amp;rdquo;}, inspirada en &lt;a href=&#34;https://virtualjug.com/&#34; target=&#34;_blank&#34;&gt;VirtualJUG&lt;/a&gt;{:target=&amp;rdquo;_blank&amp;rdquo;} (una comunidad online centrada en la plataforma Java). A partir de ahí se gestó la idea de crear algo parecido pero más generalista y en español.&lt;/p&gt;
+
+&lt;h3 id=&#34;cómo-funciona&#34;&gt;🏭 ¿Cómo funciona?&lt;/h3&gt;
+
+&lt;p&gt;Se realizan sesiones periódicas, que consisten en un hangout entre el ponente y los facilitadores. El ponente da la charla (que se emite por directo en Youtube Live) y el facilitador se encarga de presentarla y de introducir algunas de las preguntas que pueden hacer los espectadores a través del chat de Youtube. Luego, esa charla se queda almacenada en el &lt;a href=&#34;https://www.youtube.com/c/ComunidadCODE&#34; target=&#34;_blank&#34;&gt;canal de Youtube&lt;/a&gt;{:target=&amp;rdquo;_blank&amp;rdquo;}.&lt;/p&gt;
+
+&lt;p&gt;Utilizamos una &lt;a href=&#34;http://eepurl.com/c8CpuH&#34; target=&#34;_blank&#34;&gt;lista de correo&lt;/a&gt;{:target=&amp;rdquo;_blank&amp;rdquo;} para gestionar los avisos de nuevas charlas, recordatorios y cambios en las mismas. Apúntate, ¡prometemos no ser nada pesados!&lt;/p&gt;
+
+&lt;h3 id=&#34;quién-está-detrás&#34;&gt;👥 ¿Quién está detrás?&lt;/h3&gt;
+
+&lt;p&gt;Dos raules: &lt;a href=&#34;../colaboradores/raul-avila&#34;&gt;Raúl Avila&lt;/a&gt; y &lt;a href=&#34;../colaboradores/raul-villares&#34;&gt;Raúl Villares&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/raules.jpg&#34; alt=&#34;Raúl Ávila y Raúl Villares&#34; /&gt;{: .center-image }&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>masde140.com</title>
+      <link>/en/project/mas_de_140/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/en/project/mas_de_140/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3&#39;s a crowd!</title>
+      <link>/en/project/3sacrowd/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/en/project/3sacrowd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cookinaria</title>
+      <link>/en/project/cookinaria/</link>
+      <pubDate>Tue, 27 Sep 2005 00:00:00 +0200</pubDate>
+      
+      <guid>/en/project/cookinaria/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

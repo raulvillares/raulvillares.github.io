@@ -26,6 +26,9 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="/project/comunidad_code/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/project/comunidad_code/" hreflang="en"/>
+    
       <loc>/project/comunidad_code/</loc>
       <lastmod>2018-01-02T00:00:00+01:00</lastmod>
     </url>
@@ -34,6 +37,9 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="/project/mas_de_140/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/project/mas_de_140/" hreflang="en"/>
+    
       <loc>/project/mas_de_140/</loc>
       <lastmod>2017-07-01T00:00:00+02:00</lastmod>
     </url>
@@ -41,6 +47,9 @@
   
     
     <url>
+    
+      <xhtml:link rel="alternate" href="/project/3sacrowd/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/project/3sacrowd/" hreflang="en"/>
     
       <loc>/project/3sacrowd/</loc>
       <lastmod>2017-04-27T00:00:00+02:00</lastmod>
@@ -77,6 +86,9 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="/project/cookinaria/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/project/cookinaria/" hreflang="en"/>
+    
       <loc>/project/cookinaria/</loc>
       <lastmod>2005-09-27T00:00:00+02:00</lastmod>
     </url>
@@ -104,6 +116,9 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="/tags/demo/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/tags/demo/" hreflang="en"/>
+    
       <loc>/tags/demo/</loc>
       <lastmod>2017-07-01T00:00:00+02:00</lastmod>
       <priority>0</priority>
@@ -112,6 +127,9 @@
   
     
     <url>
+    
+      <xhtml:link rel="alternate" href="/project/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/project/" hreflang="en"/>
     
       <loc>/project/</loc>
       <lastmod>2018-01-02T00:00:00+01:00</lastmod>
@@ -165,6 +183,9 @@
   
     
     <url>
+    
+      <xhtml:link rel="alternate" href="/tags/web/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/tags/web/" hreflang="en"/>
     
       <loc>/tags/web/</loc>
       <lastmod>2018-01-02T00:00:00+01:00</lastmod>
