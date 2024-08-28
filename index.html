@@ -1,354 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raúl Villares</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
 
-<head>
-	<title>Raúl Villares - Desarrollador de Software</title>
+  <body class="bg-gray-900 text-green-400 p-4 sm:p-8 font-mono">
+    <div class="max-w-4xl mx-auto">
+      <div class="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-8 mb-8">
+        <div class="flex flex-col items-center sm:items-start">
+          <div class="w-32 h-32 sm:w-48 sm:h-48">
+            <img src="./assets/img/avatar.jpg" alt="My short-sighted eye through some Connectix pieces" class="rounded-full object-cover w-full h-full">
+          </div>
+          <div class="flex justify-center space-x-4 mt-4 w-full">
+            <a href="https://github.com/raulvillares" target="_blank" class="text-green-400 hover:text-green-300"><i class="fab fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/raulvillaressanchez/" target="_blank" class="text-green-400 hover:text-green-300"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://x.com/ravilsan" target="_blank" class="text-green-400 hover:text-green-300"><i class="fab fa-twitter fa-2x"></i></a>
+          </div>
+        </div>
 
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">
-	<link rel="shortcut icon" href="favicon.ico">
+        <div>
+          <h1 class="text-3xl sm:text-4xl font-bold mb-4 text-center sm:text-left">Raúl Villares</h1>
+          <p class="text-sm sm:text-base mb-4">
+              Hello, world! Raúl here, from Spain. I'm a seasoned software developer with a strong focus on delivering business value.
+          </p>
+          <p class="text-sm sm:text-base mb-4">
+            Throughout my career, I have worn different hats, from <a href="https://sammancoaching.org/reference/technical_coach_definition.html" target="_blank" class="text-green-400 hover:text-green-300 underline">technical coach</a> to people management.
+            I have solid knowledge of techniques and practices like test-driven development, object-oriented design, refactoring, and clean architecture.
+          </p>
+          <p class="text-sm sm:text-base">
+            But most of all, I'm a team player, inclined to do <a href="https://noidea.dog/glue" target="_blank" class="text-green-400 hover:text-green-300 underline">glue work</a>.
+          </p>
+        </div>
+      </div>
 
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-
-	<!-- FontAwesome JS-->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
-
-	<!-- Theme CSS -->
-	<!--  <link id="theme-style" rel="stylesheet" href="assets/css/devresume.css"> -->
-	<link id="theme-style" rel="stylesheet" href="assets/css/devresume.css">
-</head>
-
-<body>
-
-	<div class="main-wrapper">
-		<div class="container px-3 px-lg-5">
-			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
-
-				<div class="resume-header">
-					<div class="row align-items-center">
-						<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
-							<h2 class="resume-name mb-0 text-uppercase">Raul Villares</h2>
-							<div class="resume-tagline mb-3 mb-md-0">Senior Backend Developer</div>
-							<ul class="list-unstyled resume-social-list mb-0">
-								<li class="list-inline">
-									<i class="fas fa-envelope-square fa-fw fa-lg mr-0"></i>
-									<a class="resume-link" href="mailto:#">raulvillares@gmail.com</a></li>
-								<li class="list-inline mr-2"><i class="fas fa-map-marker-alt fa-fw fa-lg mr-0"></i>Madrid</li>
-								<li class="list-inline mb-2"><i class="fas fa-language fa-fw fa-lg mr-1"></i><a class="resume-link" href="index_en.html">English version</a></li>
-							</ul>
-						</div>
-						<img class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 mx-auto" src="assets/images/raul2.png" alt="image">
-
-						<!--//resume-title-->
-	
-						<!--//resume-contact-->
-					</div>
-					<!--//row-->
-
-				</div>
-				<!--//resume-header-->
-				<hr>
-				<div class="resume-intro py-1">
-					<div class="media flex-column flex-md-row align-items-center">
-						<div class="media-body text-left">
-							<h4 class="item-title">¿Qué puedo aportar?</h4>
-							<ul class="no-margin-bottom">
-								<li><b>Mentalidad enfocada a valor de negocio</b>:</br>Intento pensar en los <em>outcomes</em> por encima de los <em>outputs</em>, cuando hago cualquier cosa siempre me pregunto <em>"¿qué valor aporto con esto?"</em>.</li>
-								<li><b>Acostumbrado a diferentes roles</b>:</br>Mi experiencia como manager de equipo y technical coach ha hecho que tenga diferentes habilidades más allá de lo técnico.</li>
-								<li><b>Jugador de equipo</b>, con tendencia a hacer <em><a href="https://www.programmingtalks.org/talk/being-glue" target="_blank">glue work</a></em>:</br>Intento dejar mi ego en casa y pensar en lo mejor para el equipo/empresa.</li>
-								<li>Gran experiencia con <b>Test-Driven Development</b>:</br>Varios años usándodo esta técnica en proyectos reales, y enseñándosela a otras personas.</li>
-								<li>Sólidos conocimientos de <b>diseño orientado a objetos y buenas prácticas</b>:</br>También tengo competencia en Refactoring, Behaviour-Driven Development, Domain-Driven Design y Clean Architechture.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<!--//resume-intro-->
-				<hr>
-				<div class="resume-body">
-					<div class="row">
-						<div class="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
-							<section class="work-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">Experiencia profesional</h3>
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://devengo.com/" target="_blank">Devengo</a></h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-											<strong>Senior Backend Developer</strong><br />
-											marzo 2023 - presente<br />
-										</div>
-
-									</div>
-									<div class="item-content">
-										<p>Desarrollo de una API sencilla y escalable que permite a cualquier compañía, grande o pequeña, enviar y recibir pagos de manera instantánea. Una cuenta de empresa que puedes usar de manera programática en tiempo real.</p>
-										<ul class="resume-list">
-											<li>Ruby</li>
-											<li>Rails</li>
-											<li>API Design</li>
-											<li>Startup</li>
-										</ul>
-									</div>
-								</div>								
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://www.exeal.com" target="_blank">Exeal</a></h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-											<strong>Technical Coach</strong><br />
-											enero 2022 - febrero 2023<br />
-										</div>
-
-									</div>
-									<div class="item-content">
-										<p>Ayudo a que los equipos de desarrollo de software adopten las habilidades, técnicas y mindset adecuados para tener éxito en entornos de desarrollo ágil de software.</p>
-										<ul class="resume-list">
-											<li>TDD</li>
-											<li>Principios de diseño</li>
-											<li>Continuous delivery</li>
-											<li>Pair / Mob programming</li>
-											<li>Refactoring</li>
-											<li>Ritmo sostenible</li>
-										</ul>
-									</div>
-								</div>
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://www.alea-soluciones.com/" target="_blank">Alea Soluciones</a></h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-											<strong>Coordinador del equipo</strong><br />
-											junio 2020 - diciembre 2021<br />
-										</div>
-
-									</div>
-									<div class="item-content">
-										<p>Además de seguir desarrollando software, paso a encargarme de la coordinación del equipo de desarrollo: un híbrido de engineering manager, product manager y tech lead.</p>
-										<ul class="resume-list">
-											<li>Desarrollo de software</li>
-											<li>Visión y estrategia técnica</li>
-											<li>Gestión de proyectos</li>
-											<li>Productividad y salud del equipo</li>
-											<li>Contrataciones</li>
-											<li>Mentorización de nuevas incorporaciones</li>
-											<li>Coordinación con Negocio y Dirección</li>
-										</ul>
-									</div>
-								</div>
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://www.alea-soluciones.com/" target="_blank">Alea Soluciones</a></h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-											<strong>Desarrollador de Software</strong><br />
-											noviembre 2017 - junio 2020<br />
-										</div>
-
-									</div>
-									<div class="item-content">
-										<p>Desarrollo de sistemas de telecomunicaciones para operadores pequeños y
-											medianos.</p>
-										<ul class="resume-list">
-											<li>Extreme Programming</li>
-											<li>Integración continua</li>
-											<li>Sistemas distribuídos</li>
-											<li>Equipo autogestionado</li>
-											<li>Pensamiento Lean</li>
-										</ul>
-									</div>
-								</div>
-
-							</section>
-							<!--//work-section-->
-
-
-							<section class="project-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">Proyectos</h3>
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Comunidad CODE</h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-											Co-fundador y co-organizador<br /><a href="https://www.youtube.com/c/ComunidadCODE"
-												target="_blank" class="theme-link">Canal de Youtube</a></div>
-									</div>
-									<div class="item-content">
-										<p>CODE significa Charlas Online de Desarrollo en Español.</p>
-									</div>
-									<div class="item mb-3">
-										<div class="item-heading row align-items-center mb-2">
-											<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">TDD de cero a
-												cien (o casi)</h4>
-											<div
-												class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-												Co-facilitador<br /><a
-													href="https://github.com/aleasoluciones/pycones2018" target="_blank"
-													class="theme-link">Repositorio</a></div>
-										</div>
-										<div class="item-content">
-											<p>Taller en la PyConEs 2018</p>
-										</div>
-										<div class="item mb-3">
-											<div class="item-heading row align-items-center mb-2">
-												<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">masde140
-												</h4>
-												<div
-													class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-													Fundador y administrador<br /><a
-														href="https://raulvillares.com/masde140/" target="_blank"
-														class="theme-link">masde140.com</a></div>
-											</div>
-											<div class="item-content">
-												<p>Comunidad de debate entre desarrolladorxs de software. Generado con
-													Discourse.</p>
-											</div>
-										</div>
-										<div class="item mb-3">
-											<div class="item-heading row align-items-center mb-2">
-												<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">3's a
-													crowd!
-												</h4>
-												<div
-													class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-													Creador<br /><a href="https://raulvillares.com/3sacrowd/index.html"
-														target="_blank" class="theme-link">¡jugar!</a></div>
-											</div>
-											<div class="item-content">
-												<p>Mini puzzle desarrollado completamente en vanilla javascript.</p>
-											</div>
-										</div>
-										<div class="item mb-3">
-											<div class="item-heading row align-items-center mb-2">
-												<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Populicias
-												</h4>
-												<div
-													class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-													Co-creador<br /><a
-														href="https://web.archive.org/web/20070202013521/http://populicias.com/"
-														target="_blank" class="theme-link">populicias.com</a></div>
-											</div>
-											<div class="item-content">
-												<p>Primera página web social de noticias en español.</p>
-											</div>
-										</div>
-										<div class="item mb-3">
-											<div class="item-heading row align-items-center mb-2">
-												<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Cookinaria
-												</h4>
-												<div
-													class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-													Apartado técnico y fotografías<br /><a href="http://cookinaria.es"
-														target="_blank" class="theme-link">cookinaria.es</a></div>
-											</div>
-											<div class="item-content">
-												<p>Blog de cocina.</p>
-											</div>
-										</div>
-							</section>
-							<!--//project-section-->
-						</div>
-						<!--//resume-main-->
-						<aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
-							<section class="skills-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">Habilidades</h3>
-								<div class="item">
-									<h4 class="item-title">Técnicas</h4>
-									<ul class="list-unstyled resume-skills-list">
-										<li class="mb-2"><i class="fas fa-traffic-light"></i> TDD</li>
-										<li class="mb-2"><i class="fas fa-people-carry"></i> Pair Programming</li>
-										<li class="mb-2"><i class="fas fa-broom"></i> Clean Code</li>
-										<li class="mb-2"><i class="fas fa-eye"></i> Visión estratégica</li>
-									</ul>
-								</div>
-								<!--//item-->
-								<div class="item">
-									<h4 class="item-title">Herramientas</h4>
-									<ul class="list-unstyled resume-skills-list">
-										<li class="mb-2"><i class="fab fa-python"></i> Python</li>
-										<li class="mb-2"><i class="fab fa-google"></i> Golang</li>
-										<li class="mb-2"><i class="fab fa-java"></i> Java</li>
-										<li class="mb-2"><i class="fas fa-database"></i> SQL</li>
-										<li class="mb-2"><i class="fas fa-shapes"></i> Redis</li>
-										<li class="mb-2"><i class="fas fa-exchange-alt"></i> Rabbitmq</li>
-										<li class="mb-2"><i class="fab fa-docker"></i> Docker</li>
-										<li class="mb-2"><i class="fab fa-git"></i> Git</li>
-										<li class="mb-2"><i class="fab fa-linux"></i> Linux</li>
-									</ul>
-								</div>
-								<!--//item-->
-							</section>
-							<!--//skills-section-->
-							<section class="education-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">Educación</h3>
-								<ul class="list-unstyled resume-education-list">
-									<li class="mb-3">
-										<div class="resume-degree font-weight-bold">
-											<i class="fas fa-graduation-cap"></i>
-											Ingeniería Técnica en Informática de Gestión</div>
-										<div class="resume-degree-org text-muted">Universitat Rovira i Virgili</div>
-										<div class="resume-degree-time text-muted">2005</div>
-									</li>
-									<li>
-										<div class="resume-degree font-weight-bold"><i class="fas fa-award"></i>
-											Lenguages de programación, 2004
-										</div>
-										<div class="resume-degree-org text-muted">Matrícula de Honor</div>
-										<div class="resume-degree-time text-muted">2004</div>
-									</li>
-								</ul>
-							</section>
-							<section class="skills-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">Personal</h3>
-								<ul class="list-unstyled resume-interests-list mb-0">
-									<li class="mb-2"><i class="fas fa-brain"></i> <a href="https://wakingup.com/" target="_blank">Mindfulness</a></li>
-									<li class="mb-2"><i class="fas fa-binoculars"></i> <a href="https://ebird.org/spain/home" target="_blank">Observación de aves</a></li>
-									<li class="mb-2"><i class="fas fa-hand-holding-usd"></i> <a href="https://ayudaefectiva.org/" target="_blank">Ayuda efectiva</a></li>
-									<li class="mb-2"><i class="fas fa-book"></i> <a
-											href="https://www.blurb.com/bookstore/invited/5174890/ee14d1bab0e643427daaeccd05f6fd1c2124292a"
-											target="_blank">Haikus en bicicleta</a> (libro autoeditado)</li>
-								</ul>
-							</section>
-
-						</aside>
-						<!--//resume-aside-->
-					</div>
-					<!--//row-->
-				</div>
-				<!--//resume-body-->
-				<hr>
-				<div class="resume-footer text-center">
-					<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
-						<li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" target="_blank"
-								href="https://github.com/raulvillares"><i class="fab fa-github-square fa-3x mr-2"
-									data-fa-transform="down-4"></i><span
-									class="d-none d-lg-inline-block text-muted">github</span></a></li>
-						<li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" target="_blank"
-								href="https://www.linkedin.com/in/raulvillaressanchez/"><i class="fab fa-linkedin fa-3x mr-2"
-									data-fa-transform="down-4"></i><span
-									class="d-none d-lg-inline-block text-muted">linkedin</span></a></li>
-						<li class="list-inline-item mb-lg-0 mr-lg-3"><a class="resume-link" target="_blank"
-								href="https://medium.com/@raulvillares"><i class="fab fa-medium fa-3x mr-2"
-									data-fa-transform="down-4"></i><span
-									class="d-none d-lg-inline-block text-muted">medium</span></a></li>
-						<li class="list-inline-item mb-lg-0 mr-lg-3"><a class="resume-link" target="_blank"
-								href="https://twitter.com/ravilsan"><i class="fab fa-twitter-square fa-3x mr-2"
-									data-fa-transform="down-4"></i><span
-									class="d-none d-lg-inline-block text-muted">twitter</span></a></li>
-					</ul>
-				</div>
-				<!--//resume-footer-->
-			</article>
-
-		</div>
-		<!--//container-->
-
-	</div>
-	<!--//main-wrapper-->
-
-</body>
-
+      <nav class="mt-8">
+        <ul class="flex flex-wrap justify-between text-sm sm:text-base">
+          <li class="mb-2 w-1/2 sm:w-auto"><a href="experience.html" class="hover:text-green-300">> Professional Experience</a></li>
+          <li class="mb-2 w-1/2 sm:w-auto"><a href="education.html" class="hover:text-green-300">> Education</a></li>
+          <li class="mb-2 w-1/2 sm:w-auto"><a href="projects.html" class="hover:text-green-300">> Projects</a></li>
+          <li class="mb-2 w-1/2 sm:w-auto"><a href="under_construction.html" class="hover:text-green-300">> Personal</a></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
 </html>
