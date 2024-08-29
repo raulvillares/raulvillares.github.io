@@ -5,11 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raúl Villares</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+      @font-face {
+        font-family: 'Departure Mono';
+        src: url('./assets/fonts/DepartureMono-Regular.woff2') format('woff2'),
+             url('./assets/fonts/DepartureMono-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      body {
+        font-family: 'Departure Mono', 'Fira Code', monospace;
+      }
+    </style>
   </head>
 
-  <body class="bg-gray-900 text-green-400 p-4 sm:p-8 font-mono">
+  <body class="bg-gray-900 text-green-400 p-4 sm:p-8">
     <div class="max-w-4xl mx-auto">
       <div class="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-8 mb-8">
         <div class="flex flex-col items-center sm:items-start">

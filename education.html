@@ -8,12 +8,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
+      @font-face {
+        font-family: 'Departure Mono';
+        src: url('./assets/fonts/DepartureMono-Regular.woff2') format('woff2'),
+             url('./assets/fonts/DepartureMono-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
       body {
-        font-family: 'Fira Code', monospace;
+        font-family: 'Departure Mono', 'Fira Code', monospace;
       }
     </style>
   </head>
-  <body class="bg-gray-900 text-green-400 p-4 sm:p-8 font-mono">
+  <body class="bg-gray-900 text-green-400 p-4 sm:p-8">
     <div class="max-w-4xl mx-auto">
       <header>
         <h1 class="text-4xl font-bold mb-8 text-center">📚 Education</h1>
