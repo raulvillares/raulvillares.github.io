@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>How I Work — Raúl Villares</title>
+
+    <meta
+      name="description"
+      content="A few principles that shape how I think about software, problems and working with people."
+    >
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    >
+
+    <style>
+      @font-face {
+        font-family: 'Departure Mono';
+        src: url('./assets/fonts/DepartureMono-Regular.woff2') format('woff2'),
+             url('./assets/fonts/DepartureMono-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      body {
+        font-family: 'Departure Mono', 'Fira Code', monospace;
+      }
+    </style>
+  </head>
+
+  <body class="bg-gray-900 text-green-400 p-4 sm:p-8">
+    <div class="max-w-4xl mx-auto">
+
+      <header class="mb-16">
+        <h1 class="text-4xl font-bold mb-6 text-center">
+          🧭 How I Work
+        </h1>
+
+        <p class="text-sm sm:text-base text-center max-w-2xl mx-auto">
+          A few principles that have gradually shaped the way I think
+          about software, problems and working with people.
+        </p>
+      </header>
+
+
+      <!-- 01 — Technology is a means, not an end -->
+
+      <section class="mb-20">
+        <div class="grid md:grid-cols-5 gap-8 md:gap-12 items-start">
+
+          <div class="md:col-span-3">
+            <p class="text-sm mb-2 opacity-70">01</p>
+
+            <h2 class="text-2xl font-bold mb-6">
+              Technology is a means, not an end
+            </h2>
+
+            <div class="space-y-4 text-sm sm:text-base">
+              <p>
+                Technology is a servant with a dangerous habit of asking
+                to be worshipped.
+              </p>
+
+              <p>
+                And engineers are particularly easy to seduce.
+              </p>
+
+              <p>
+                We admire cleverness. We polish abstractions. We build
+                architectures of great symmetry and give names to patterns
+                that make us feel we have understood the world.
+              </p>
+
+              <p>
+                Sometimes we have only understood the code.
+              </p>
+
+              <p>
+                Software does not exist to justify its own elegance. It
+                exists because somewhere, somebody is trying to do something,
+                and something stands in the way.
+              </p>
+
+              <p>
+                That is the beginning of the story.
+              </p>
+
+              <p>
+                The code, the framework, the database, the architecture:
+                all of them come later. They are tools. Useful ones,
+                beautiful ones at times, but tools nonetheless.
+              </p>
+
+              <p>
+                The world owes us nothing for the beauty of our code.
+              </p>
+
+              <p>
+                A wonderfully designed system that solves the wrong problem
+                is still the wrong system. A simpler solution that makes
+                somebody's life noticeably better may be the greater piece
+                of engineering.
+              </p>
+
+              <p>
+                So I try to return, again and again, to one question:
+              </p>
+
+              <p class="text-lg font-bold py-2">
+                What problem are we solving?
+              </p>
+
+              <p>
+                Not what ticket are we implementing. Not what technology
+                would be interesting to use. Not what architecture would
+                look impressive on a diagram.
+              </p>
+
+              <p>
+                What problem are we solving?
+              </p>
+
+              <p>
+                If we cannot answer that clearly, perhaps we should stop
+                touching the code.
+              </p>
+            </div>
+          </div>
+
+          <figure class="md:col-span-2">
+            <img
+              src="./assets/img/technology-is-a-means.jpg"
+              alt="Illustration for Technology is a means, not an end"
+              class="w-full object-cover"
+            >
+          </figure>
+
+        </div>
+      </section>
+
+
+      <!-- 02 — Know your user -->
+
+      <section class="mb-20">
+        <div class="grid md:grid-cols-5 gap-8 md:gap-12 items-start">
+
+          <figure class="md:col-span-2 md:order-1 order-2">
+            <img
+              src="./assets/img/know-your-user.jpg"
+              alt="Illustration for Know your user"
+              class="w-full object-cover"
+            >
+          </figure>
+
+          <div class="md:col-span-3 md:order-2 order-1">
+            <p class="text-sm mb-2 opacity-70">02</p>
+
+            <h2 class="text-2xl font-bold mb-6">
+              Know your user
+            </h2>
+
+            <div class="space-y-4 text-sm sm:text-base">
+              <p>
+                The code does not know what hurts. People do.
+              </p>
+
+              <p>
+                We can look at logs, traces, metrics and tickets. We can
+                reproduce a bug, inspect a request and follow the path
+                through the system. All of that matters.
+              </p>
+
+              <p>
+                But none of it tells the whole story.
+              </p>
+
+              <p>
+                Somewhere beyond the screen there is a person trying to do
+                something. They have a goal, a context, a deadline, a
+                frustration. They know which parts of our product are
+                genuinely useful, which are confusing, which are painful,
+                and which things we spent weeks perfecting that they barely
+                notice.
+              </p>
+
+              <p>
+                That is why I like staying close to support and to the people
+                who deal with users every day.
+              </p>
+
+              <p class="text-lg font-bold py-2">
+                Support is where our assumptions are forced to meet reality.
+              </p>
+
+              <p>
+                You discover what people are actually trying to do, not what
+                you imagined they would do. You see where they hesitate,
+                where the system surprises them, what they misunderstand,
+                and what they simply do not care about.
+              </p>
+
+              <p>
+                It is one of the few places where software stops being an
+                abstraction and becomes part of somebody else's day.
+              </p>
+
+              <p>
+                Knowing your user does not mean blindly giving people
+                whatever they ask for. It means understanding them well
+                enough to distinguish the request from the need, the symptom
+                from the problem, and our assumptions from their reality.
+              </p>
+
+              <p>
+                If technology is a means, this is how we remember what it
+                is a means for.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 03 — Own the problem, not the ticket -->
+
+      <section class="mb-20">
+        <div class="grid md:grid-cols-5 gap-8 md:gap-12 items-start">
+
+          <div class="md:col-span-3">
+            <p class="text-sm mb-2 opacity-70">03</p>
+
+            <h2 class="text-2xl font-bold mb-6">
+              Own the problem, not the ticket
+            </h2>
+
+            <div class="space-y-4 text-sm sm:text-base">
+              <p>
+                A ticket is a description of a problem seen from one
+                particular moment, by one particular person, with the
+                information available at the time.
+              </p>
+
+              <p class="text-lg font-bold py-2">
+                Reality has no obligation to respect it.
+              </p>
+
+              <p>
+                Sometimes the requested change is exactly what is needed.
+                Sometimes it is only a symptom, an assumption, or the first
+                plausible explanation somebody found.
+              </p>
+
+              <p>
+                So I try not to inherit the solution before I understand
+                the problem.
+              </p>
+
+              <p>
+                And understanding the problem usually means going one step
+                further than the task itself.
+              </p>
+
+              <p>
+                What is really happening? Why is it happening? Who is
+                affected? Under which conditions? What are the consequences
+                of fixing it one way rather than another? What new problem
+                might we be creating while solving this one?
+              </p>
+
+              <p>
+                Look at what the system is actually doing. Reproduce it.
+                Measure it. Read the logs, the code, the documentation.
+                Ask the people who know something you do not. Separate
+                what we know from what we merely suspect.
+              </p>
+
+              <p class="text-lg font-bold py-2">
+                Then make the unknown smaller.
+              </p>
+
+              <p>
+                A difficult problem rarely becomes clear all at once.
+                More often, each useful question removes one possibility,
+                each observation gives the next experiment, and each
+                experiment leaves a little less darkness than before.
+              </p>
+
+              <p>
+                Owning the problem means caring about all those layers,
+                not just the wording of the task.
+              </p>
+
+              <p>
+                Not taking responsibility for everything. Not refusing to
+                ask for help. And certainly not heroically disappearing
+                into a cave until the answer reveals itself.
+              </p>
+
+              <p>
+                It means understanding enough of the problem, its context
+                and its consequences to know whether the thing you are
+                about to build is actually the thing that should be built.
+              </p>
+
+              <p>
+                Because completing the ticket is not necessarily the same
+                thing as solving the problem.
+              </p>
+            </div>
+          </div>
+
+          <figure class="md:col-span-2">
+            <img
+              src="./assets/img/own-the-problem.jpg"
+              alt="Illustration for Own the problem, not the ticket"
+              class="w-full object-cover"
+            >
+          </figure>
+
+        </div>
+      </section>
+
+
+      <!-- 04 — Everything is personal -->
+
+      <section class="mb-20">
+        <div class="grid md:grid-cols-5 gap-8 md:gap-12 items-start">
+
+          <figure class="md:col-span-2 md:order-1 order-2">
+            <img
+              src="./assets/img/we-are-all-persons.jpg"
+              alt="Illustration for Everything is personal. We are all persons."
+              class="w-full object-cover"
+            >
+          </figure>
+
+          <div class="md:col-span-3 md:order-2 order-1">
+            <p class="text-sm mb-2 opacity-70">04</p>
+
+            <h2 class="text-2xl font-bold mb-6">
+              Everything is personal.<br>
+              We are all persons.
+            </h2>
+
+            <div class="space-y-4 text-sm sm:text-base">
+              <p>
+                It is easy to forget that there is a person on the other
+                side of almost every problem.
+              </p>
+
+              <p>
+                A colleague who made a mistake. A customer who is frustrated.
+                Someone from Operations asking the same question again.
+                A developer defending a decision you disagree with. Someone
+                having a worse day than you know.
+              </p>
+
+              <p>
+                We tend to see roles before people.
+              </p>
+
+              <p class="italic">
+                Developer. Manager. Customer. Support. Product.
+              </p>
+
+              <p>
+                But roles are abstractions. People are not.
+              </p>
+
+              <p>
+                This does not mean avoiding disagreement, lowering standards,
+                or pretending that every decision is equally good. Sometimes
+                you have to say no. Sometimes you have to challenge an idea.
+                Sometimes something is simply wrong.
+              </p>
+
+              <p>
+                It means trying not to forget the person while dealing with
+                the problem.
+              </p>
+
+              <p>
+                A little patience, a little context, a little generosity in
+                how we interpret other people's actions can change the whole
+                texture of working together.
+              </p>
+
+              <p class="text-lg font-bold py-2">
+                There is rarely a good reason to make life harder for each other.
+              </p>
+
+              <p>
+                And in a profession already full of complexity, uncertainty
+                and pressure, being someone who reduces friction instead of
+                adding to it is not a small thing.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <a
+        href="index.html"
+        class="inline-block px-6 py-2 border border-green-400 text-green-400 hover:bg-green-400 hover:text-gray-900 font-bold rounded transition"
+      >
+        Go Back to Home Page
+      </a>
+
+    </div>
+  </body>
+</html>
