@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Del desarrollo asistido al desarrollo agéntico</title>
+  <meta name="description" content="Una reflexión sobre cómo podría evolucionar el uso de IA en el desarrollo de software: de la asistencia a una ejecución más agéntica, manteniendo comprensión, criterio y responsabilidad humana.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Del desarrollo asistido al desarrollo agéntico">
+  <meta property="og:description" content="Una reflexión sobre cómo podría evolucionar el uso de IA en el desarrollo de software, manteniendo comprensión, criterio y responsabilidad humana.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Del desarrollo asistido al desarrollo agéntico">
+  <meta name="twitter:description" content="Una reflexión sobre cómo podría evolucionar el uso de IA en el desarrollo de software.">
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      font-size: 18px;
+    }
+    body { margin: 0; background: #fff; color: #111; }
+    main { max-width: 740px; margin: 0 auto; padding: 56px 24px 72px; }
+    h1, h2 { line-height: 1.2; font-weight: 650; }
+    h1 { font-size: 2rem; margin: 0 0 1.5rem; }
+    h2 { font-size: 1.2rem; margin: 2.2rem 0 0.8rem; }
+    p { margin: 0 0 1rem; }
+    strong { font-weight: 650; }
+    .intro { font-size: 1.05rem; }
+    .meta { margin-top: 3rem; font-size: 0.9rem; color: #555; }
+    a { color: inherit; text-underline-offset: 0.18em; }
+    @media (max-width: 640px) {
+      :root { font-size: 17px; }
+      main { padding: 32px 20px 48px; }
+      h1 { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>Del desarrollo asistido al desarrollo agéntico</h1>
+      <p class="intro">Quería dejar por escrito una reflexión bastante sencilla sobre cómo usamos hoy la IA en desarrollo y cuál podría ser un siguiente paso natural.</p>
+
+      <h2>Cómo trabajamos ahora</h2>
+      <p>En Devengo tenemos un Kanban bastante clásico. Producto y Tecnología revisamos las tareas que están preparadas para empezar, se comentan dudas y matices, y después un developer coge una issue, la implementa y abre una PR. Otro developer la revisa antes de que el cambio llegue a producción. Los viernes hacemos una review de lo que se ha terminado, lo que sigue bloqueado y lo que necesita más conversación.</p>
+      <p>Como pasa normalmente en desarrollo, parte del trabajo consiste también en descubrir cosas mientras se implementa: restricciones, casos que no se habían contemplado o decisiones que requieren hablar con Producto o con otro developer. Eso forma parte normal del trabajo.</p>
+      <p>La IA ya está bastante metida en este flujo. En mi caso, al empezar una tarea doy a Cursor el contexto de la issue, documentación, código relacionado y el criterio que creo que necesita. A partir de ahí vamos iterando: propone cosas, yo las reviso, corrijo lo que no encaja, añado contexto que faltaba y terminamos llegando a una PR. En las revisiones hago algo parecido a veces: uso la IA para entender mejor el cambio o señalar posibles problemas y luego reviso con mi propio criterio.</p>
+      <p>Es decir, ahora mismo la IA funciona sobre todo como una herramienta del developer. Ayuda mucho durante la ejecución, pero la unidad de trabajo sigue siendo una persona llevando una tarea de principio a fin.</p>
+
+      <h2>Qué creo que podría ser el siguiente paso</h2>
+      <p>Creo que el siguiente paso natural no es simplemente usar mejor Cursor, sino cambiar un poco el reparto del trabajo. Que las personas se centren más en entender qué queremos conseguir, aportar contexto y criterio y tomar las decisiones importantes, y que un agente pueda asumir una parte mayor de la ejecución.</p>
+      <p>Para que esto funcione no creo que sea suficiente con entregar una issue a un agente y esperar una buena PR. Antes de delegar la implementación tiene sentido haber aclarado, con el nivel de profundidad que requiera cada cambio, qué queremos conseguir, cómo encaja en el sistema y cuáles son las decisiones relevantes sobre cómo debería estructurarse la solución.</p>
+      <p>En una charla de Dex Horthy encontré una forma bastante útil de separar estas capas: <strong>Product</strong>, <strong>Architecture</strong>, <strong>Program Design</strong> y, finalmente, dividir el trabajo en <strong>Vertical Slices</strong> pequeñas y verificables. No lo veo como un proceso formal que haya que aplicar siempre ni como más documentación por la documentación. La idea que me parece interesante es que las decisiones importantes ocurran antes de delegar la ejecución, no que aparezcan por primera vez dentro de una PR generada por un agente.</p>
+      <p>Con ese trabajo previo, un agente podría coger una parte de la tarea, investigar el código, hacer la implementación, ejecutar las comprobaciones necesarias y terminar abriendo una PR. Si durante el trabajo aparece algo que no estaba contemplado o una decisión que necesita criterio de producto o técnico, se bloquea y pregunta. Igual que haría una persona.</p>
+      <p>Esto también cambia cómo sería idealmente la revisión. En vez de recibir una PR y tener que descubrir qué solución ha diseñado el agente, la revisión puede centrarse mucho más en comprobar si ha implementado correctamente algo que el equipo ya había entendido y acordado.</p>
+      <p>La salida seguiría siendo una PR, no un cambio que se mergea o se despliega solo. Ahí vuelve a entrar el equipo: revisar si la solución cumple realmente el objetivo, si hay riesgos, si se ha interpretado bien la tarea y si el cambio se puede aceptar.</p>
+
+      <h2>Qué podríamos ganar</h2>
+      <p>Lo más obvio es capacidad de ejecución. Si un agente puede hacer una parte mayor de la implementación sin que un developer tenga que ir guiando cada paso, ese tiempo se puede dedicar a entender mejor los problemas, hablar con Producto, tomar decisiones, diseñar soluciones o revisar cambios.</p>
+      <p>También permitiría separar un poco mejor dos tipos de trabajo que ahora ocurren muy mezclados: decidir qué queremos hacer y ejecutar la implementación. No porque sean independientes, sino porque la IA empieza a permitir repartir el esfuerzo de otra manera.</p>
+
+      <h2>Qué riesgos veo</h2>
+      <p>El principal es bastante simple: un agente puede entender mal una tarea y aun así producir una PR muy convincente. Puede tener tests, estar bien escrita y ser razonable técnicamente, pero resolver el problema equivocado. Tampoco asumiría que porque un agente implemente y otro agente revise ya tenemos una validación independiente: pueden compartir la misma interpretación equivocada. Por eso tiene que poder parar cuando falte información, los controles automáticos siguen siendo necesarios y, en los cambios importantes, el criterio final tiene que seguir siendo humano.</p>
+      <p>Hay además otro riesgo menos visible. Cuando una persona implementa algo no solo produce código: también actualiza su modelo mental del sistema y adquiere conocimiento profundo de esa zona. Delegar la escritura del código no debería significar delegar también la comprensión del cambio. Si dejamos de construir ese conocimiento podemos terminar dependiendo de los agentes no solo para producir software, sino también para poder entenderlo cuando algo falle.</p>
+      <p>Otro riesgo es generar trabajo más rápido de lo que somos capaces de revisarlo. Si los agentes empiezan a producir muchas PR y el cuello de botella pasa a ser entenderlas y validarlas bien, la mejora de productividad puede ser bastante menor de lo que parece. Precisamente por eso me parece importante que las decisiones principales se hayan tomado antes de la implementación: una PR debería ser más fácil de supervisar si no tenemos que reconstruir durante la review qué problema intenta resolver y por qué está hecha así.</p>
+      <p>Y en Devengo hay una capa adicional evidente: trabajamos con pagos y en un entorno regulado. Antes de dar autonomía real a agentes habría que tener muy claros sus permisos, el acceso a información, la trazabilidad y quién es responsable de lo que llega a producción. No hace falta resolver ahora cómo hacerlo, pero sí tenerlo como condición de partida.</p>
+
+      <h2>En resumen</h2>
+      <p>No lo veo como una revolución del proceso, sino como una evolución de algo que ya estamos haciendo. Hemos pasado de desarrollar sin IA a desarrollar con IA. El siguiente paso podría ser que algunas partes del trabajo pasen de ser ejecución de un developer asistido por IA a ejecución delegada a un agente, manteniendo en las personas las decisiones, la comprensión y la responsabilidad sobre el cambio.</p>
+
+      <div class="meta">
+        <p><strong>Primera versión:</strong> 14 de septiembre de 2026<br>
+        <strong>Actualizado:</strong> 19 de septiembre de 2026</p>
+        <p><strong>Referencia</strong><br>
+        Dex Horthy, <em>Harness Engineering is not Enough: Why Software Factories Fail</em>, AI Engineer.<br>
+        <a href="https://youtu.be/Ib5GBkD555M" rel="noopener noreferrer">Ver charla en YouTube</a></p>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
